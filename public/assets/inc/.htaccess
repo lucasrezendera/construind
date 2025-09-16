@@ -1,0 +1,16 @@
+# Configurações para processamento de formulários
+RewriteEngine On
+
+# Permite execução de PHP
+AddType application/x-httpd-php .php
+
+# Headers de segurança
+Header always set X-Content-Type-Options nosniff
+Header always set X-Frame-Options DENY
+Header always set X-XSS-Protection "1; mode=block"
+
+# Configurações de CORS para formulários
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS"
+Header always set Access-Control-Allow-Headers "Content-Type"
+

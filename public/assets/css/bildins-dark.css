@@ -1,0 +1,157 @@
+.dark-version .page-wrapper,
+.dark-version .main-header-one__bottom,
+.dark-version .about-one,
+.dark-version .services-one::before,
+.dark-version .services-one,
+.dark-version .team-one__right-single-inner,
+.dark-version .pricing-one,
+.dark-version .appoinment-one__contact-list ul li,
+.dark-version .appoinment-one__form,
+.dark-version .working-process-one,
+.dark-version .faq-one-accrodion .accrodion {
+    background-color: var(--billdins-black);
+}
+
+.dark-version .main-header-one__top,
+.dark-version .about-one,
+.dark-version .services-one__single-inner,
+.dark-version .team-one,
+.dark-version .pricing-one__single,
+.dark-version .appoinment-one,
+.dark-version .faq-one,
+.dark-version .site-footer {
+    background: #000000;
+}
+
+.dark-version .team-one {
+    padding-top: 120px;
+}
+
+
+
+.dark-version .sec-title__title {
+    color: var(--billdins-white);
+}
+
+.dark-version .services-one__single-content h3 a {
+    color: var(--billdins-white);
+}
+
+.dark-version .pricing-one__single .table-header h2 {
+    color: var(--billdins-white);
+}
+
+.dark-version .blog-one__single-content h2 a {
+    color: var(--billdins-white);
+}
+
+
+
+.dark-version .main-menu .main-menu__list>li>a,
+.dark-version .stricky-header .main-menu__list>li>a,
+.dark-version .main-menu .main-menu__list>li.dropdown>a:after,
+.dark-version .main-menu__search,
+.dark-version .main-header__shop .icon-box a,
+.dark-version .about-one__counter-box li .text p,
+.dark-version .about-one__content-text p,
+.dark-version .about-one__content-list li p,
+.dark-version .about-one__content-author .content-box h2,
+.dark-version .about-one__content-author .content-box p,
+.dark-version .services-one__single-content p,
+.dark-version .team-one__left-text p,
+.dark-version .team-one__right-single-inner .author-box h2,
+.dark-version .pricing-one__single .table-header p,
+.dark-version .pricing-one__single .table-content ul li .text-box p,
+.dark-version .testimonial-one__single-text p,
+.dark-version .testimonial-one__single-author .content-box h2,
+.dark-version .testimonial-one__single-author .content-box p,
+.dark-version .testimonial-one__left-bottom-text h3,
+.dark-version .appoinment-one__contact-list ul li .inner .content-box h2,
+.dark-version .appoinment-one__contact-list ul li .inner .content-box p,
+.dark-version .appoinment-one__contact-list ul li .inner .content-box p a,
+.dark-version .appoinment-one__form .title-box h2,
+.dark-version .faq-one-accrodion .accrodion-title h4,
+.dark-version .faq-one-accrodion .accrodion-content p,
+.dark-version .faq-one-accrodion .accrodion-title h4::before,
+.dark-version .blog-one__single-img .date-box h3,
+.dark-version .blog-one__single-content .meta-box li p a,
+.dark-version .blog-one__single-content p {
+    color: rgba(255, 255, 255, 0.80);
+}
+
+
+.dark-version .main-menu .main-menu__list>li.current>a::after,
+.dark-version .main-menu .main-menu__list>li:hover>a::after,
+.dark-version .stricky-header .main-menu__list>li.current>a::after,
+.dark-version .stricky-header .main-menu__list>li:hover>a::after {
+    color: var(--billdins-base);
+}
+
+.dark-version .stricky-header.main-menu {
+    background-color: var(--billdins-black);
+}
+
+.dark-version .about-one .shape2 {
+    display: none;
+}
+
+.dark-version .services-one__single .icon-box {
+    background: #0c0c0e;
+}
+
+.dark-version .services-one__single .icon-box::before {
+    border-bottom: 35px solid rgb(24 26 30 / 90%);
+}
+
+.dark-version .about-one__counter-box li {
+    border-bottom: 1px solid rgba(var(--billdins-white-rgb), 0.15);
+}
+
+.dark-version .pricing-one__bg::before {
+    background: rgba(var(--billdins-black-rgb), 0.92);
+}
+
+.dark-version .pricing-one__single .table-content ul li.style2 .text-box p {
+    color: rgba(var(--billdins-white-rgb), 0.5);
+}
+
+.dark-version .pricing-one__single .table-header {
+    border-bottom: 1px solid rgba(var(--billdins-white-rgb), 0.15);
+}
+
+.dark-version .testimonial-one__right::before {
+    background: rgba(var(--billdins-white-rgb), 0.15);
+}
+
+
+.dark-version .owl-dot-style1.owl-theme .owl-dots .owl-dot span {
+    background: var(--billdins-white);
+}
+
+.dark-version .appoinment-one__form form .form-group input[type="text"],
+.dark-version .appoinment-one__form form .form-group input[type="email"],
+.dark-version .appoinment-one__form form .form-group input[type="tel"],
+.dark-version .appoinment-one__form form .form-group input[type="url"],
+.dark-version .appoinment-one__form form .form-group textarea {
+    color: var(--billdins-white);
+    background-color: rgba(var(--billdins-white-rgb), 0.06);
+}
+
+.dark-version .working-process-one__inner .shape1 {
+    opacity: 0.5;
+}
+
+.dark-version .pricing-one__single .shape1 {
+    opacity: 0.6;
+}
+
+
+
+.dark-version .team-one__right-single-inner .text-box p {
+    color: rgba(255, 255, 255, 0.70);
+}
+
+
+
+
+/* The End */

@@ -1,0 +1,16 @@
+{
+    "name": "CONSTRUIND 2025 - Feira da Construção Civil de Indaiatuba",
+    "short_name": "CONSTRUIND 2025",
+    "description": "A maior feira da construção civil de Indaiatuba. 23, 24 e 25 de outubro de 2025 no Espaço Viber.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#FF5E14",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "any",
+            "type": "image/x-icon"
+        }
+    ]
+}

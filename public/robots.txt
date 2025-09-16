@@ -1,0 +1,51 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://construind2025.com/sitemap.xml
+
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1
+
+# Permitir todos os bots principais
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Bloquear bots maliciosos
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Bloquear acesso a arquivos sensíveis
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /out/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /node_modules/
+
+# Permitir acesso a assets importantes
+Allow: /assets/
+Allow: /favicon.ico
+Allow: /site.webmanifest
