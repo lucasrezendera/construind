@@ -7,12 +7,6 @@
   NODE_ENV = "production"
   SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY"
 
-# Desabilitar plugin Next.js para usar build estático
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-  [plugins.inputs]
-    disable = true
-
 # Headers de performance e segurança
 [[headers]]
   for = "/*"
