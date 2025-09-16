@@ -1,17 +1,10 @@
 [build]
-  publish = "out"
   command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "18"
   NODE_ENV = "production"
   SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY"
-
-# Redirects para SPA
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
 
 # Headers de performance e segurança
 [[headers]]
