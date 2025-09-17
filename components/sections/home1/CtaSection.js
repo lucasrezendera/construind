@@ -20,7 +20,7 @@ export default function CtaSection() {
                         </div>
                         <div className="site-footer--two__top-right">
                             <div className="text-box">
-                                <h2>Credenciamento obrigatório, <br/> faça-o gratuitamente</h2>
+                                <h2>Credenciamento obrigatório, <br className="desktop-only"/> faça-o gratuitamente</h2>
                             </div>
 
                             <div className="btn-box">
