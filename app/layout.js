@@ -7,6 +7,7 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import { publicSans, exo } from '@/lib/font'
 import JsonLd, { eventSchema, organizationSchema } from '@/components/seo/JsonLd'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata = {
     title: {
@@ -99,7 +100,10 @@ export default function RootLayout({ children }) {
                 <JsonLd data={eventSchema} />
                 <JsonLd data={organizationSchema} />
             </head>
-            <body>{children}</body>
+            <body>
+                {children}
+                <Analytics />
+            </body>
         </html>
     )
 }
