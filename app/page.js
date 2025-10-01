@@ -4,6 +4,7 @@ import CtaSection from "@/components/sections/home1/CtaSection"
 import About from "@/components/sections/home1/About"
 import Service from "@/components/sections/home1/Service"
 import Team from "@/components/sections/home1/Team"
+import Sponsors from "@/components/sections/home1/Sponsors"
 import Appoinment from "@/components/sections/home1/Appoinment"
 import Faq from "@/components/sections/home1/Faq"
 
@@ -16,6 +17,7 @@ export default function Home() {
                 <Banner />
                 <CtaSection />
                 <About />
+                <Sponsors />
                 <Service />
                 <Team />
                 <Appoinment />
