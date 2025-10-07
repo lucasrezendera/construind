@@ -24,9 +24,11 @@ export default function CtaSection() {
                             </div>
 
                             <div className="btn-box">
-                                <Link 
+                                <a 
                                     className="thm-btn cta-orange-button" 
-                                    href="/credenciamento"
+                                    href="https://www.eventuall.com.br/construind"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     Faça seu credenciamento
                                     <i className="icon-next"></i>
@@ -34,7 +36,7 @@ export default function CtaSection() {
                                     <span className="hover-btn hover-bx2"></span>
                                     <span className="hover-btn hover-bx3"></span>
                                     <span className="hover-btn hover-bx4"></span>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>

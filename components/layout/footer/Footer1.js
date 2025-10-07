@@ -143,13 +143,18 @@ export default function Footer1() {
                                         <span className="hover-btn hover-bx4"></span>
                                     </Link>
                                     
-                                    <Link href="/credenciamento" className="thm-btn footer-btn">
+                                    <a 
+                                        href="https://www.eventuall.com.br/construind" 
+                                        className="thm-btn footer-btn"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
                                         Faça seu Credenciamento
                                         <span className="hover-btn hover-bx"></span>
                                         <span className="hover-btn hover-bx2"></span>
                                         <span className="hover-btn hover-bx3"></span>
                                         <span className="hover-btn hover-bx4"></span>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

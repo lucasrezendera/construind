@@ -80,7 +80,20 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup, theme =
                                         <Link href="#" onClick={handlePopup} className="main-menu__search search-toggler icon-search-interface-symbol"></Link>
                                     </div>
 
-                                    <div className="main-header__btn">
+                                    <div className="main-header__btn" style={{ display: 'flex', gap: '10px' }}>
+                                        <a 
+                                            className="thm-btn cta-orange-button" 
+                                            href="https://www.eventuall.com.br/construind"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            Credenciamento
+                                            <i className="icon-next"></i>
+                                            <span className="hover-btn hover-bx"></span>
+                                            <span className="hover-btn hover-bx2"></span>
+                                            <span className="hover-btn hover-bx3"></span>
+                                            <span className="hover-btn hover-bx4"></span>
+                                        </a>
                                         <Link className="thm-btn" href="/seja-um-expositor">Seja um Expositor
                                             <i className="icon-next"></i>
                                             <span className="hover-btn hover-bx"></span>
@@ -121,7 +134,20 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup, theme =
                                         <Link href="#" className="main-menu__search search-toggler icon-search-interface-symbol" onClick={handlePopup}></Link>
                                     </div>
 
-                                    <div className="main-header__btn">
+                                    <div className="main-header__btn" style={{ display: 'flex', gap: '10px' }}>
+                                        <a 
+                                            className="thm-btn cta-orange-button" 
+                                            href="https://www.eventuall.com.br/construind"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            Credenciamento
+                                            <i className="icon-next"></i>
+                                            <span className="hover-btn hover-bx"></span>
+                                            <span className="hover-btn hover-bx2"></span>
+                                            <span className="hover-btn hover-bx3"></span>
+                                            <span className="hover-btn hover-bx4"></span>
+                                        </a>
                                         <Link className="thm-btn" href="/seja-um-expositor">Seja um Expositor
                                             <i className="icon-next"></i>
                                             <span className="hover-btn hover-bx"></span>

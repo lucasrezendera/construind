@@ -32,12 +32,28 @@ export default function Credenciamento() {
                                                 <h4>Credenciamento</h4>
                                             </div>
                                         </div>
-                                        <h2 className="sec-title__title tg-element-title event-gradient-text">CREDENCIAMENTO ABRE DIA <br/> 23 DE SETEMBRO ÀS 12H
+                                        <h2 className="sec-title__title tg-element-title event-gradient-text">CREDENCIAMENTO <br/> ABERTO AGORA!
                                         </h2>
                                     </div>
 
                                     <div className="why-choose-one__content-text">
-                                        <p>O credenciamento para a CONSTRUIND 2025 será aberto no dia 23 de setembro às 12h. Anote na sua agenda e prepare-se para participar da maior feira da construção civil de Indaiatuba!</p>
+                                        <p>O credenciamento para a CONSTRUIND 2025 está aberto! Faça seu credenciamento gratuito e garante sua participação na maior feira da construção civil de Indaiatuba!</p>
+                                    </div>
+
+                                    <div className="why-choose-one__content-btn" style={{ marginTop: '30px', marginBottom: '30px' }}>
+                                        <a 
+                                            className="thm-btn cta-orange-button" 
+                                            href="https://www.eventuall.com.br/construind"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            Faça seu credenciamento agora
+                                            <i className="icon-next"></i>
+                                            <span className="hover-btn hover-bx"></span>
+                                            <span className="hover-btn hover-bx2"></span>
+                                            <span className="hover-btn hover-bx3"></span>
+                                            <span className="hover-btn hover-bx4"></span>
+                                        </a>
                                     </div>
 
                                     <div className="why-choose-one__content-bottom">

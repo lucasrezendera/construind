@@ -62,7 +62,20 @@ export default function Banner() {
                             </div>
 
                             <div className="main-slider-two__btn">
-                                <Link className="thm-btn" href="/contato">Saiba Mais
+                                <a 
+                                    className="thm-btn cta-orange-button" 
+                                    href="https://www.eventuall.com.br/construind"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Faça seu credenciamento
+                                    <i className="icon-next"></i>
+                                    <span className="hover-btn hover-bx"></span>
+                                    <span className="hover-btn hover-bx2"></span>
+                                    <span className="hover-btn hover-bx3"></span>
+                                    <span className="hover-btn hover-bx4"></span>
+                                </a>
+                                <Link className="thm-btn" href="/contato" style={{ marginLeft: '15px' }}>Saiba Mais
                                     <i className="icon-next"></i>
                                     <span className="hover-btn hover-bx"></span>
                                     <span className="hover-btn hover-bx2"></span>
@@ -106,7 +119,20 @@ export default function Banner() {
                             </div>
 
                             <div className="main-slider-two__btn">
-                                <Link className="thm-btn" href="/contato">Saiba Mais
+                                <a 
+                                    className="thm-btn cta-orange-button" 
+                                    href="https://www.eventuall.com.br/construind"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Faça seu credenciamento
+                                    <i className="icon-next"></i>
+                                    <span className="hover-btn hover-bx"></span>
+                                    <span className="hover-btn hover-bx2"></span>
+                                    <span className="hover-btn hover-bx3"></span>
+                                    <span className="hover-btn hover-bx4"></span>
+                                </a>
+                                <Link className="thm-btn" href="/contato" style={{ marginLeft: '15px' }}>Saiba Mais
                                     <i className="icon-next"></i>
                                     <span className="hover-btn hover-bx"></span>
                                     <span className="hover-btn hover-bx2"></span>
