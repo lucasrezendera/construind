@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout"
 import Banner from "@/components/sections/home1/Banner"
 import CtaSection from "@/components/sections/home1/CtaSection"
 import About from "@/components/sections/home1/About"
+import TourVirtual from "@/components/sections/home1/TourVirtual"
 import Service from "@/components/sections/home1/Service"
 import Team from "@/components/sections/home1/Team"
 import Sponsors from "@/components/sections/home1/Sponsors"
@@ -17,6 +18,7 @@ export default function Home() {
                 <Banner />
                 <CtaSection />
                 <About />
+                <TourVirtual />
                 <Sponsors />
                 <Service />
                 <Team />

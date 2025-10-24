@@ -40,7 +40,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                             <ul className="main-menu__list">
                                 <li><Link href="/">Início</Link></li>
                                 <li><Link href="/evento">Evento</Link></li>
-                                <li><Link href="/seja-um-expositor">Seja um Expositor</Link></li>
+                                <li><Link href="/tour-360">Tour Virtual</Link></li>
                                 <li><Link href="/expositores">Expositores</Link></li>
                                 <li><Link href="/contato">Contato</Link></li>
                             </ul>

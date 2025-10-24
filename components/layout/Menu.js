@@ -16,7 +16,7 @@ export default function Menu() {
                 </li>
 
                 <li>
-                    <Link href="/seja-um-expositor">Seja um Expositor</Link>
+                    <Link href="/tour-360">Tour Virtual</Link>
                 </li>
 
                 <li>

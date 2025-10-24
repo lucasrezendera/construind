@@ -94,7 +94,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup, theme =
                                             <span className="hover-btn hover-bx3"></span>
                                             <span className="hover-btn hover-bx4"></span>
                                         </a>
-                                        <Link className="thm-btn" href="/seja-um-expositor">Seja um Expositor
+                                        <Link className="thm-btn" href="/tour-360">Tour Virtual
                                             <i className="icon-next"></i>
                                             <span className="hover-btn hover-bx"></span>
                                             <span className="hover-btn hover-bx2"></span>
@@ -148,7 +148,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup, theme =
                                             <span className="hover-btn hover-bx3"></span>
                                             <span className="hover-btn hover-bx4"></span>
                                         </a>
-                                        <Link className="thm-btn" href="/seja-um-expositor">Seja um Expositor
+                                        <Link className="thm-btn" href="/tour-360">Tour Virtual
                                             <i className="icon-next"></i>
                                             <span className="hover-btn hover-bx"></span>
                                             <span className="hover-btn hover-bx2"></span>
